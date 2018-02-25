@@ -1,5 +1,5 @@
 class PaintingSerializer < ActiveModel::Serializer
-  attributes :id, :title, :image, :slug, :date, :dimensions, :votes
+  attributes :id, :title, :image, :slug, :date, :dimensions, :votes, :liked
   belongs_to :artist
   belongs_to :museum
 

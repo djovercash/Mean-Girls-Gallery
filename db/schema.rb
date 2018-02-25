@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171130142550) do
+ActiveRecord::Schema.define(version: 20180225185758) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 20171130142550) do
     t.string "slug"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "liked", default: false
     t.index ["artist_id"], name: "index_paintings_on_artist_id"
     t.index ["museum_id"], name: "index_paintings_on_museum_id"
   end
