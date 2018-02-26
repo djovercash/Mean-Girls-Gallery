@@ -13,3 +13,12 @@
 // }
 //
 // export default Data
+
+
+// const fetchPaintings = () => {
+//
+// }
+//
+// export default {
+//   fetchPaintings
+// }
