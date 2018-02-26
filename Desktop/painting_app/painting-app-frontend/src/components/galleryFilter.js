@@ -4,12 +4,12 @@ const GalleryFilter = (props) => {
   return (
     <div id="imgFilter">
       <div id="imgFilterTitle">
-        <h4>Search by Title:  </h4>
-        <input placeholder="Title" onChange={props.onTitle} />
+        <h5>Find dat B*tch:  </h5>
+        <input placeholder="B*tch's Name" onChange={props.onTitle} />
       </div>
       <div id="imgFilterMuseum">
-        <h4>Search by Museum:  </h4>
-        <input placeholder="Museum" onChange={props.onMuseum} />
+        <h5>Find B*tch's House:  </h5>
+        <input placeholder="B*tch's House" onChange={props.onMuseum} />
       </div>
     </div>
   )

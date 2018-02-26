@@ -5,7 +5,7 @@ class GalleryItem extends React.Component {
   render() {
     return (
       <div className="galleryItem">
-        <FlexyFlipCard frontBackgroundColor='rgb(0, 0, 0)' backBackgroundColor='rgb(0,0,0)'>
+        <FlexyFlipCard frontBackgroundColor='rgb(255, 20, 147)' backBackgroundColor='rgb(255, 20, 147)'>
           <div>
             <div className="galleryImage" ref='flipper'>
               <img src={this.props.image.image} alt={this.props.image.title} />
@@ -25,8 +25,9 @@ class GalleryItem extends React.Component {
             </div>
             <h4>Currently Located:</h4>
             <h4>{!this.props.image.museum.name ? "Lost" : this.props.image.museum.name}</h4>
-            <button id={this.props.image.id} onClick={this.props.changeFav}>{!this.props.image.liked ? "Add to Favs" : "Remove from Favs"}</button>
-            <button ref='flipper'>See Less</button>
+            <button id={this.props.image.id} onClick={this.props.changeFav}>{!this.props.image.liked ? "Yas B*tch! Join my crew!" : "You Can't Sit With Us, B*tch!"}</button>
+            <br />
+            <button ref='flipper'>B*tch Out</button>
           </div>
         </FlexyFlipCard>
       </div>

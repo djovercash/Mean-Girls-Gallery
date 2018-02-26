@@ -23,7 +23,7 @@
 }
 
 #navBar {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 20, 147);
   color: rgb(255, 255, 255);
 }
 
@@ -37,8 +37,16 @@
 }
 
 .navBarItem {
+  display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.navBarButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 #navActive {
@@ -48,6 +56,23 @@
 
 #navPassive {
   background-color: rgb(252, 252, 252);
+}
+
+#navBarTitle {
+  display: inline-flex;
+  width: 30%;
+  vertical-align: middle;
+  align-items: center;
+}
+
+#navBarTitle img {
+  width: 10%;
+  height: 10%;
+  margin-right: 5px;
+}
+
+#navBarTitle h4{
+  margin-left: 5px;
 }
 
 #navBarFilter {
